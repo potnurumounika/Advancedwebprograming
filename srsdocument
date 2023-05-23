@@ -1,0 +1,162 @@
+1.INTRODUCTION:
+
+The Spotify clone website is a web-based application designed to provide users with a music streaming service similar to Spotify. The website offers users access to a vast library of music from various artists, genres, and albums, as well as the ability to create playlists, follow other users, and share music. The website is intended to meet the needs of music lovers of all ages and backgrounds, providing an accessible, easy-to-use, and secure platform for discovering new music and enjoying old favorites. With features such as music browsing and search, playlists, following and sharing, and music playback, the Spotify clone website aims to provide an immersive music experience that users can enjoy anytime, anywhere.
+
+1.1	PURPOSE:
+
+The purpose of this document is to define the requirements for a Spotify clone website. The website is intended to provide an online music streaming service, similar to Spotify, where users can listen to music, create playlists, follow other users, and share music.
+
+1.2 SCOPE :
+
+The scope of this document is to provide a detailed description of the features and  functionalities that the Spotify clone website should have. The website should be designed to meet the needs of music lovers of all ages and backgrounds. The website should be accessible, easy to use, and secure.
+
+1.3	DEFINITIONS, ACRONYMS AND ABBREVIATIONS:
+
+1.3.1 USER LOGIN
+
+A user login is another essential feature of a website that enables users to access their own data and information. With a user login, user can view their interests , songs , podcasts and other information in real-time.
+
+1.3.2 DASHBOARD
+
+A dashboard is the main user interface of a music player, providing an overview of subscriber data and system performance in real-time. The dashboard is typically designed to be easy to navigate, with interactive visuals that display data in a clear and concise manner.
+
+1.3.3 REGISTRATION
+Registration is a process in this website that enables user providers to create profiles and collect key information about each user . The registration process typically involves collecting user information and other relevant data.
+1.4 REFERENCES:
+
+https://youtu.be/xVZqEmRQjLM
+
+https://mrunal0502/Spotify-clone
+
+1.5	OVERVIEW:
+
+This is a working document and, as such, is subject to change. In its initial form, it is incomplete by definition, and will require continuing refinement. Requirements may be modified and additional requirements may be added as development progresses and the system description becomes more refined. This information will serve as a framework for the current definition and future evolution of a better online music website player.
+
+2. OVERALL DESCRIPTION:
+
+Within the last two decades, music streaming has overtaken other means of listening to music (e.g. purchasing records, CDs, and/or MP3 files from online music services). This being the case, many different streaming services have come to fruition, and different artists have chosen to release their music on different platforms. The goal of this platform is to allow easy access to songs on any platform by allowing users to create, and seamlessly listen to, playlists of songs from any and all of the available streaming services.
+
+2.1 PRODUCT PERSPECTIVE
+
+The Spotify clone website will be an online music streaming service, where users can browse, search, and listen to music. The website will allow users to create their own playlists, follow other users, and share music.
+
+2.2 PRODUCT FUNCTIONS
+
+A flowchart is a graphical representation of a process, system, or algorithm that uses various shapes, lines, and symbols to illustrate the steps involved. It is a visual tool that helps to understand complex processes by breaking them down into smaller, more manageable components.
+
+The flowchart typically consists of various symbols representing different steps in the process, such as a rectangle to represent an action or process, a diamond to represent a decision point, and arrows to indicate the flow of the process from one step to another.
+The symbols are connected by lines to show the sequence and direction of the process.
+
+
+ 
+
+2.1.1 LOGIN / SIGN UP PAGE
+
+1. User opens the website and clicks on the "Register" button.
+2.User enters their email address, creates a password, and clicks on the "Register" button.
+The website stores the user's email and password securely in a database.
+User clicks on the "Login" button.
+5.User enters their registered email and password and clicks on the "Login" button.
+6.The website verifies the user's credentials and grants access to the user's account.
+ 
+
+2.3 PRODUCT FEATURES
+The Spotify clone website should have the following features:
+
+2.3.1 USER REGISTRATION AND LOGIN
+
+•	The website should allow users to create an account using their email address and password.
+•	Users should be able to log in to the website using their registered email and password.
+
+2.3.2 MUSIC BROWSING AND SEARCH
+
+•	The website should provide users with a list of music genres that they can browse through.
+•	Users should be able to search for music by artist, album, or song title.
+•	The website should allow users to filter search results by various criteria, such as artist, album, and genre.
+
+
+
+
+2.3.3 PLAYLISTS
+•	The website should allow users to create, edit, and delete playlists.
+•	Users should be able to add songs to their playlists from search results or their history.
+•	The website should allow users to share their playlists with other users.
+2.3.4 MUSIC PLAYBACK
+•	The website should allow users to play music continuously without interruption.
+•	The website should display album art and song lyrics.
+•	The website should provide recommendations based on user preferences.
+•	The website should allow users to like and dislike songs.
+•	The website should provide a history of recently played songs.
+2.4 USER CHARACTERISTICS
+
+The target audience for the Spotify clone website is music lovers of all ages and backgrounds. Users should have basic computer literacy and an interest in discovering new music.
+
+2.5 COSTRAINTS
+
+The constraint of primary concern is the User’s internet connection.
+
+
+3. SPECIFIC REQUIREMENTS:
+
+3.1 EXTERNAL INTERFACE
+
+3.1.1 PHP APPLICATION
+
+The actual program that will perform the operations is written in PHP. All data will be stored in a database.
+
+3.1.2 MYSQL DATABASE
+
+It’s an open source SQL database to store all data which communicates with the application on the server.
+
+3.2	FUNCTIONAL REQUIREMENTS
+
+3.2.1 USE CASE SCENARIO
+
+3.2.1.1 USE CASE SCENARIO 1 – USER LOGIN
+User Login
+Purpose	User logs in to system using existing
+profile.
+User	A user with an existing profile.
+Input Data	Profile username and password.
+Pre-conditions	User is not logged in to a profile, input profile exists in data base, user password matches profile.
+Post-conditions	User's computer has been supplied with appropriate cookie, page data is appropriate for selected profile.
+ 
+  3.2.1.2 USE CASE SCENARIO 2- NEW REGISTRATION
+
+  New Registration
+Purpose	For login the new users can do
+Registration 
+Giving some inputs
+User	A user without an existing profile.
+Input Data	Profile username and password, Email.
+Pre-conditions	Already registered email account can’t be registered.
+Post-conditions	User's computer has been supplied with appropriate cookie, page data is appropriate for selected proϐ ile
+
+3.3 DESIGN CONSTRAINTS
+
+1.The communication between the portal software and the database will be in SQL.
+2.The portal layout will be produced with HTML/CSS.
+3.The product will be written in PHP.
+4.The output must be compatible with W3C XHTML 1.0
+5.The source code must follow the coding conventions of PHP.
+6.System administrators must have access to comprehensive documentation.
+3.4 SOFTWARE SYSTEM ATTRIBUTES
+The software consists of the following elements:
+1.	The PHP application
+2.	The MySQL database
+The database should remain consistent at all times in case of an error.
+
+3.4.1 RELIABILITY
+
+We used languages, frameworks, and packages that have been rigorously tested in industry.
+
+3.4.2 AVAILABILITY
+ 
+We designed this platform on and for a computer browser (rather than mobile). Our
+platform works on all Chrome based browsers along with Firefox.
+
+3.4.3 SECURITY
+
+The network configuration and servers that our infrastructure is set up on is secured in accordance with AWS Security Best Practices.
+
+
